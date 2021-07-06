@@ -1,0 +1,21 @@
+img {
+    height: 50mm ;
+    width: 50mm;
+    border: 1mm solid black;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+}
+
+table{
+    text-align: center;
+}
+
+td{
+    width: 50mm;
+}

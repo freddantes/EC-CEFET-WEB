@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TRABALHO PRÁTICO 1 - PROGRAMAÇÃO WEB</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1> MÁSCARA DE PROTEÇÃO CONTRA A COVID-19 </h1>
+    <h2> Tipos de Máscaras: </h2>
+    <h3>N95 / PFF2 </h3>
+    <img src="https://images-americanas.b2w.io/produtos/01/00/img/1763513/7/1763513744_1GG.jpg"
+    alt="Máscara N95 da 3M" title="Máscara N95"/>
+    <p>
+    <b>Segurança:</b> Alta
+    <p>
+    <b>Preço: </b> $$$
+    <p>
+    <b>Oferta: </b> Grande
+    <p>
+    <b>OBS: </b> A mais recomendada para o uso, principalmente para profissionais de saúde.
+    <p>
+    <h3>Elastomérica</h3>
+    <img src="https://cultura.uol.com.br/upload/redactor/20210325155300_32c68d47-c52b-454f-8e64-c00d403a38c5.jpg"
+    alt="Máscara Elastomérica" title="Máscara Elastomérica"/>
+    <p>
+    <b>Segurança:</b> Alta
+    <p>
+    <b>Preço: </b> $$$
+    <p>
+    <b>Oferta: </b> Pequena
+    <p>
+    <b>OBS: </b> Não muito utilizada, devido à oferta, porém possui bom nível de proteção.
+    <p>
+    <h3>Cirúrgica</h3>
+    <img src="https://a-static.mlcdn.com.br/574x431/mascara-cirurgica-profissional-descartavel-civil-10-unidades-m-c/topgift/3003/5b170bc23c98c806e1a1ad8328628466.jpg"
+    alt="Máscara Cirúrgica" title="Máscara Cirúrgica"/>
+    <p>
+    <b>Segurança:</b> Média
+    <p>
+    <b>Preço: </b> $
+    <p>
+    <b>Oferta: </b> Grande
+    <p>
+    <b>OBS: </b> Muito utilizada pelo fato de ter bastante oferta no mercado por ser usada anteriormente à pandemia. Depois da N95 e elastomérica, é a que possui maior eficiência contra COVID-19.
+    <p>
+    <h3>Pano</h3>
+    <img src="https://cdn1.staticpanvel.com.br/produtos/15/112290-15.jpg"
+    alt="Máscara de Pano" title="Máscara de Pano"/>
+    <p>
+    <b>Segurança:</b> Baixa
+    <p>
+    <b>Preço: </b> $
+    <p>
+    <b>Oferta: </b> Grande
+    <p>
+    <b>OBS: </b> Muito utilizada por ser de fácil produção e oferta abundante. Porém em relação às anteriores, apresenta a pior eficiência, sendo indicada para uso em conjunto à cirúrgica.
+    <p>
+    <h3>KN95</h3>
+    <img src="https://a-static.mlcdn.com.br/1500x1500/mascara-de-protecao-kn95-com-clip-nasal-kn-95-bompack/gabijovi/5921/6418b6bfff3e75558af066d7e8c37aa2.jpg"
+    alt="Máscara KN95" title="Máscara KN95"/>
+    <p>
+    <b>Segurança:</b> Média
+    <p>
+    <b>Preço: </b> $$
+    <p>
+    <b>Oferta: </b> Grande
+    <p>
+    <b>OBS: </b> Versão chinesa da N95(EUA) e PFF2(Brasil). Possui também uma grande eficiência contra o COVID-19. Porém por ser de fabricação chinesa, existem alguns fornecedores que não tem homologação e mesmo assim alimentam o mercado, trazendo risco para quem pretende utilizar desse modelo.
+    <p>
+    <h2> Comparativo da eficiência:</h2>
+    <table border="1">
+         <tr>
+            <th>N95 / PFF2</th>
+            <th>Elastomérica</th>
+            <th>Cirúrgica</th>
+            <th>Pano</th>
+            <th>KN95</th>
+        </tr>
+        <tr>
+            <td>ALTA</td>
+            <td>ALTA</td>
+            <td>MÉDIA</td>
+            <td>BAIXA</td>
+            <td>MÉDIA</td>
+        </tr>
+    </table>
+    <h2>Formulário de contato:</h2>
+    <i>Para maiores informações sobre os tipos de máscara, entre em contato pelo formulário abaixo com sua dúvida.</i>
+    <p>
+    <form action="Envio_dos_Dados.php" method="post" name="form">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required="required" size="30" />
+        </div>
+        <p>
+        <div>
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf" required="required" />
+        </div>
+        <p>
+        <div>
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" id="data_nascimento" required="required" />
+        </div>
+        <p>
+        <div>
+            <label for="celular">Celular(Whatsapp):</label>
+            <input type="number" id="celular" required="required" />
+        </div>
+        <p>
+        <div>
+            <textarea name="mensagem" cols="41" rows="5">Escreva sua mensagem...</textarea>
+        </div>
+        <p>
+        <div>
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+</body>
+</html>
